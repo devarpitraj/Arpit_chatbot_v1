@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgriAssist Chatbot</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo-container">
+            <svg class="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#2e7d32">
+                <path d="M12,2L4.5,20.29L5.21,21L12,18L18.79,21L19.5,20.29L12,2Z"/>
+                <path d="M12,11A1,1 0 0,1 13,12A1,1 0 0,1 12,13A1,1 0 0,1 11,12A1,1 0 0,1 12,11M7.91,7.14C7.83,7.41 7.77,7.68 7.71,8C7.63,8 7.55,8 7.44,8C6.64,8 6,8.64 6,9.44C6,9.5 6,9.56 6,9.63C4.71,10.53 4,11.28 4,12C4,12.72 4.71,13.47 6,14.37C6,14.44 6,14.5 6,14.56A1.44,1.44 0 0,0 7.44,16C7.55,16 7.63,16 7.71,16C7.77,16.32 7.83,16.59 7.91,16.86C8.09,18.21 9.42,18.86 10.17,18.86C10.5,18.86 10.76,18.77 10.94,18.61C11.26,18.69 11.58,18.75 11.92,18.78C12.04,19.36 12.5,20 13.25,20C14,20 14.46,19.36 14.58,18.78C14.92,18.75 15.24,18.69 15.56,18.61C15.74,18.77 16,18.86 16.33,18.86C17.07,18.86 18.42,18.21 18.58,16.86C18.67,16.59 18.73,16.32 18.79,16C18.87,16 18.95,16 19.06,16C19.86,16 20.5,15.36 20.5,14.56C20.5,14.5 20.5,14.44 20.5,14.37C21.79,13.47 22.5,12.72 22.5,12C22.5,11.28 21.79,10.53 20.5,9.63C20.5,9.56 20.5,9.5 20.5,9.44C20.5,8.64 19.86,8 19.06,8C18.95,8 18.87,8 18.79,8C18.73,7.68 18.67,7.41 18.58,7.14C18.42,5.79 17.07,5.14 16.33,5.14C16,5.14 15.74,5.23 15.56,5.39C15.24,5.31 14.92,5.25 14.58,5.22C14.46,4.64 14,4 13.25,4C12.5,4 12.04,4.64 11.92,5.22C11.58,5.25 11.26,5.31 10.94,5.39C10.76,5.23 10.5,5.14 10.17,5.14C9.42,5.14 8.09,5.79 7.91,7.14Z"/>
+            </svg>
+            <span class="logo-text">AgriAssist</span>
+        </div>
+        
+        <div class="about-section">
+            <h2>About</h2>
+            <p>This chatbot interfaces with an <a href="#" class="agent-link">AI-powered</a> agent designed to answer questions about farming, crops, soil health, pest management, weather patterns, and agricultural practices.</p>
+            <p>The agent uses retrieval-augment generation (RAG) over both structured and unstructured data that has been synthesized from agricultural research and expertise.</p>
+        </div>
+        
+        <div class="example-section">
+            <h2>Example Questions</h2>
+            <ul>
+                <li>How to control fungal diseases of okra?</li>
+                <li>How do I identify tomato blight and treat it organically?</li>
+                <li>When is the best time to plant wheat in the northern regions?</li>
+                <li>What are sustainable irrigation practices for water conservation?</li>
+                <li>How can I control aphids without using chemical pesticides?</li>
+                <li>What fertilizer is best for nitrogen-depleted soil?</li>
+                <li>How do cover crops improve soil health?</li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="main-content">
+        <div class="main-container">
+            <svg class="decoration top-right" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#2e7d32">
+                <path d="M15,13C14,13 13,14 13,15A2,2 0 0,0 15,17A2,2 0 0,0 17,15C17,14 16,13 15,13M15,3A2,2 0 0,0 13,5A2,2 0 0,0 15,7A2,2 0 0,0 17,5C17,4 16,3 15,3M21,16.5C21,16.88 20.79,17.21 20.47,17.38L12.57,21.82C12.41,21.94 12.21,22 12,22C11.79,22 11.59,21.94 11.43,21.82L3.53,17.38C3.21,17.21 3,16.88 3,16.5V7.5C3,7.12 3.21,6.79 3.53,6.62L11.43,2.18C11.59,2.06 11.79,2 12,2C12.21,2 12.41,2.06 12.57,2.18L20.47,6.62C20.79,6.79 21,7.12 21,7.5V16.5M12,4.15L5,8.09V15.91L12,19.85L19,15.91V8.09L12,4.15M12,6.23L7,9.11V14.89L12,17.77L17,14.89V9.11L12,6.23M15,13C14,13 13,14 13,15A2,2 0 0,0 15,17A2,2 0 0,0 17,15C17,14 16,13 15,13Z"/>
+            </svg>
+            
+            <svg class="decoration bottom-left" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#2e7d32">
+                <path d="M7.5,2A2,2 0 0,1 9.5,4A2,2 0 0,1 7.5,6A2,2 0 0,1 5.5,4A2,2 0 0,1 7.5,2M6,7H9A3,3 0 0,1 12,10V15.82L12.14,15.96L9.96,19.92C9.71,20 9.36,20 9,20C7.34,20 6,18.66 6,17H8A1,1 0 0,0 9,18C9.55,18 10,17.55 10,17V15.82L6.18,12H6V20H4V9C4,7.9 4.9,7 6,7M15.39,10.04L18.39,15.56C18.78,16.25 18.53,17.11 17.85,17.5C17.16,17.89 16.3,17.64 15.91,16.95L14.91,15.18C14.91,15.12 14.89,15.06 14.85,15L13,17.5V20H11V15.7C11,15.23 11.23,14.79 11.63,14.5L14.22,12.6L14.29,12.45C14.29,11.78 14.85,11.22 15.61,11.03C15.31,10.54 15.08,10 15,9.38C14.82,8.13 15.07,7.34 15.61,6.8C15.95,6.5 16.43,6.36 16.94,6.36C18.39,6.36 20,7.92 20,10C20,12.97 18.15,13.95 16.96,15H22V17H15.39V10.04Z"/>
+            </svg>
+            
+            <div class="chatbot-header">
+                <h1>AgriAssist Chatbot</h1>
+                <p>Ask me questions about crops, soil, pest management, irrigation, sustainable farming, weather patterns, and agricultural best practices!</p>
+            </div>
+            
+            <div class="chat-input-container">
+                <div id="chatHistory"></div> <!-- Chat history appears here -->
+            
+                <div class="input-wrapper">
+                    <input type="text" class="chat-input" placeholder="Ask about farming..." id="userInput">
+                    <button class="mic-button" onclick="startVoiceRecognition()">
+                        🎤
+                    </button>
+                    <button class="send-button" onclick="sendMessage()">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="22" y1="2" x2="11" y2="13"></line>
+                            <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            
+            
+            
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
