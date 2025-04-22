@@ -121,3 +121,4 @@ recognition.onend = function () {
     console.log("Voice recognition stopped.");
 };
 }
+hiiii
